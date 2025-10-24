@@ -1,0 +1,76 @@
+Metadata-Version: 2.4
+Name: cs329a_hw3
+Version: 0.1.0
+Summary: A toolbox for evaluating self-improvement techniques
+Home-page: https://github.com/stanford-cs329a/eval-toolbox
+Author: stanford-cs329a
+Author-email: 
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: litellm
+Requires-Dist: tenacity
+Requires-Dist: datasets
+Requires-Dist: sympy
+Requires-Dist: antlr4-python3-runtime
+Requires-Dist: word2number
+Requires-Dist: latex2sympy2
+Requires-Dist: timeout-decorator
+Requires-Dist: jupyter
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: google-api-python-client
+Requires-Dist: textblob
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: openai
+Requires-Dist: anthropic
+Requires-Dist: geopy
+Requires-Dist: groq
+Requires-Dist: loguru
+Requires-Dist: pydantic
+Requires-Dist: beautifulsoup4
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: pytz
+Requires-Dist: polygon-api-client
+Requires-Dist: geopy
+Requires-Dist: xmltodict
+Requires-Dist: jaraco.windows
+Requires-Dist: google-genai
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# cs329a-homework3
+This homework builds an end-to-end agentic workflow by combining LLMs with external APIs and self-improvement techniques.
+
+## Setup
+
+```bash
+1. Download anaconda from https://www.anaconda.com/ and install
+2. Create a new environment, and install the repo:
+
+```bash
+conda create -n cs329a-hw3 python=3.10 -y
+conda activate cs329a-hw3
+python -m pip install -e .  # Run this from root of the repo.
+```
+
+This will make sure the package is installed with requirements, so you can import functionality from `cs329a_hw3`.

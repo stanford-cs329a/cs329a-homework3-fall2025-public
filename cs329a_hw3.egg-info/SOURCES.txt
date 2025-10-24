@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cs329a_hw3.egg-info/PKG-INFO
+cs329a_hw3.egg-info/SOURCES.txt
+cs329a_hw3.egg-info/dependency_links.txt
+cs329a_hw3.egg-info/requires.txt
+cs329a_hw3.egg-info/top_level.txt
